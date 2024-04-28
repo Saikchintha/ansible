@@ -1,0 +1,10 @@
+- name: variables
+  host: localhost
+  vars: #declare variables
+    Course: "DEVOPSwithAWS"
+    Trainer: "Sivakumar"
+    started: "april"
+  tasks
+  - name: print information
+    anisble.builtin.debug:
+    msg: "Hi I am learning {{course}} from {{trainer}} in the month of {{started}}"
