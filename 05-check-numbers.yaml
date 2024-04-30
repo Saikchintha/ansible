@@ -17,7 +17,7 @@
 
 - name: check number
   hosts: localhost
-  var_prompt: #promts are always considred as text/string
+  vars_prompt: #promts are always considred as text/string
     -name: number
     prompt: please enter number
   tasks:
