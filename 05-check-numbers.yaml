@@ -27,6 +27,6 @@
     when: number | int < 15
 
   - name: number is less than 10
-    ansible.bultin.debug:
+    ansible.builtin.debug:
      msg: "Given number {{number}} is less than 15"
     when: number | int > 15
